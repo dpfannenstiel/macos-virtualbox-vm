@@ -14,7 +14,7 @@ To build a VM running macOS, follow the directions below:
         
       If you get the error `hdiutil: attach failed - Resource busy`, the downloaded app has still been loaded.
       Run `hdiutil info` to confirm.
-      If an image has been loaded at the path the OS has been installed to, go to "Disk Utility" and unmount the disk.
+      If an image has been loaded at the path the OS has been downloaded to, go to "Disk Utility" and unmount the disk.
 
   3. Open VirtualBox and create a new VM.
   4. Set:
